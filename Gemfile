@@ -20,7 +20,7 @@ group :assets do
   gem 'twitter-bootstrap-rails'
 end
 
-group :production do
+group :production, :test do
   gem 'pg', '~>0.13.2'
 end
 
