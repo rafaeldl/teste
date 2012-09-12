@@ -20,8 +20,12 @@ group :assets do
   gem 'twitter-bootstrap-rails'
 end
 
-group :development do
+group :production do
   gem 'pg', '~>0.13.2'
+end
+
+group :development do
+  gem 'sqlite3'
 end
 
 gem 'jquery-rails'
